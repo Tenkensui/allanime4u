@@ -2017,3 +2017,15 @@ ActionController::RoutingError (uninitialized constant Api):
   Rendered /usr/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /usr/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
   Rendered /usr/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (59.5ms)
+**WARNING** ReactOnRails: ReactOnRails gem and node package MAJOR versions do not match
+                     gem: 4.0.3
+            node package: 3.0.6
+Ensure the installed MAJOR version of the gem is the same as the MAJOR version of 
+your installed node package.
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0.7ms) admin['$cmd'].find({:isMaster=>1}).limit(-1)
+**WARNING** ReactOnRails: ReactOnRails gem and node package MAJOR versions do not match
+                     gem: 4.0.3
+            node package: 3.0.6
+Ensure the installed MAJOR version of the gem is the same as the MAJOR version of 
+your installed node package.
