@@ -54,6 +54,6 @@ gem 'bson'
 
 gem 'mongo'
 
-gem 'mongo_mapper'
+gem 'mongoid'
 
 gem 'bson_ext'

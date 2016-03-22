@@ -7,8 +7,5 @@ Bundler.require(*Rails.groups)
 module Allanime4u
   class Application < Rails::Application
 
-  config.generators do |g|
-      g.orm :mongo_mapper
-    end
   end
 end
