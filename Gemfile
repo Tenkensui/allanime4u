@@ -54,10 +54,8 @@ gem 'bson'
 
 gem 'mongo'
 
-<<<<<<< HEAD
 gem 'mongoid', github: 'mongoid/mongoid'
-=======
+
 gem 'mongoid'
->>>>>>> e875c57df3adb04f1e2dda47ff8eca75b8eb163b
 
 gem 'bson_ext'
