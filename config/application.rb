@@ -8,7 +8,7 @@ module Allanime4u
   class Application < Rails::Application
 
   config.generators do |g|
-      g.orm :mongo_mapper
+      g.orm :mongoid
     end
   end
 end
