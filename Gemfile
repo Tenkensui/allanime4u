@@ -56,6 +56,4 @@ gem 'mongo'
 
 gem 'mongoid', github: 'mongoid/mongoid'
 
-gem 'mongoid'
-
 gem 'bson_ext'
