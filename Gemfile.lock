@@ -133,6 +133,8 @@ GEM
       foreman
       rails (>= 3.2)
       rainbow (~> 2.1)
+    responders (2.1.2)
+      railties (>= 4.2.0, < 5.1)
     sass (3.4.21)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -181,6 +183,7 @@ DEPENDENCIES
   mongoid!
   rails
   react_on_rails
+  responders (~> 2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring

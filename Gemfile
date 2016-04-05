@@ -57,3 +57,5 @@ gem 'mongo'
 gem 'mongoid', github: 'mongoid/mongoid'
 
 gem 'bson_ext'
+
+gem 'responders', '~> 2.0'
