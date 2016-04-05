@@ -1,7 +1,8 @@
 #scrapper_type_controller.rb
 
+require 'base_controller'
 
-class Api::Scrty::ScrapperTypeController < Api::Scrty::BaseController
+class ScrapperTypeController < BaseController
   def index
     respond_with Scrapper.all
   end
