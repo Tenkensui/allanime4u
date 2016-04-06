@@ -4,7 +4,7 @@ require_relative 'base_controller'
 
 class Api::ScrapperTypesController < BaseController
   def index
-    #respond_with Scrapper.all
+    respond_with Scrapper.all
   end
 
   def create

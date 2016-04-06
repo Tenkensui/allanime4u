@@ -7,5 +7,8 @@ Rails.application.routes.draw do
   namespace :api do
     resources :scrapper_types
   end
+  namespace :api do
+    resources :templates
+  end
 end
 
